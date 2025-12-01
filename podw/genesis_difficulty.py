@@ -7,4 +7,4 @@ confirmation = input(colored("Set a Hex Confirmation Time: ", "white", attrs=["b
 os.system('cls' if os.name == 'nt' else 'clear')
 difficulty = 2**80 / (int(hashrate) * int(confirmation))
 target = 2**224 * 2**80 / difficulty
-print(colored(f"Numerical: {str(target)}\nHex: {hex(target)}", "white", attrs=["bold"])
+print(colored(f"Numerical: {str(target)}\nHex: {hex(target)}", "white", attrs=["bold"]))
